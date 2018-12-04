@@ -1,7 +1,7 @@
 /* The side navigation menu */
 .sidenav {
     height: 100%; /* 100% Full-height */
-    width: 0; /* 0 width - change this with JavaScript */
+    width: 260px;
     position: fixed; /* Stay in place */
     z-index: 1; /* Stay on top */
     top: 0; /* Stay at the top */
@@ -12,12 +12,15 @@
     padding-top: 60px; /* Place content 60px from the top */
     transition: 0s; /* 0.5 second transition effect to slide in the sidenav */
 }
-
+.bodyy{
+    margin-left: 260px;
+    font-family: Arial, Helvetica, sans-serif;
+}
 /* The navigation menu links */
 .sidenav a {
     padding: 0px 0px 0px 25px;
     text-decoration: none;
-    font-size: 16px;
+    font-size: 14.6px;
     padding-bottom: 16px;
     color: #818181;
     display: flex;
@@ -29,20 +32,12 @@
     color: #008080;
 }
 
-/* Position and style the close button (top right corner) */
-.sidenav .closebtn {
-    position: absolute;
-    top: 0;
-    right: 25px;
-    font-size: 36px;
-    margin-left: 50px;
-}
-
 .logo {
     display: block;
     width:30%;
     padding:5px;
     margin: auto;
+    margin-left:350px;
    
 }
 
@@ -57,7 +52,7 @@
 
 .istlogo {
     display:block;
-    width: 10%;
+    width: 12.5%;
     padding: 10px;
     margin:auto;
 }
